@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Proyek | Website Kelompok Proyek</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Nama Kelompok</div>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="index.html#about">Tentang Kami</a></li>
+                <li><a href="members.html">Profil Anggota</a></li>
+                <li><a href="projects.html">Galeri Proyek</a></li>
+                <li><a href="blog.html">Blog / Artikel</a></li>
+                <li><a href="index.html#contact">Kontak Kami</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="project-showcase" class="project-showcase-section">
+            <div class="container">
+                <h2>Galeri Proyek Kami</h2>
+                <p class="section-description">Jelajahi berbagai proyek inovatif yang telah kami kerjakan, menampilkan keahlian kami dalam desain, pengembangan, dan analisis data.</p>
+
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">Semua</button>
+                    <button class="filter-btn" data-filter="ui-design">UI Design</button>
+                    <button class="filter-btn" data-filter="web-dev">Web Development</button>
+                    <button class="filter-btn" data-filter="data-science">Data Science</button>
+                    <button class="filter-btn" data-filter="mobile-app">Mobile App</button>
+                    </div>
+
+                <div class="project-grid">
+                    <div class="project-card" data-category="ui-design">
+                        <img src="https://via.placeholder.com/400x250/3498db/ffffff?text=UI+Project+1" alt="UI Project 1">
+                        <div class="project-info">
+                            <h3>Desain Aplikasi Mobile "EcoTrack"</h3>
+                            <p class="project-category"><i class="fas fa-palette"></i> UI Design</p>
+                            <p>Merancang antarmuka pengguna yang intuitif untuk aplikasi pelacak jejak karbon dengan fokus pada pengalaman pengguna yang menyenangkan.</p>
+                            <a href="#" target="_blank" class="project-link">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="web-dev">
+                        <img src="https://via.placeholder.com/400x250/2ecc71/ffffff?text=Web+Project+1" alt="Web Project 1">
+                        <div class="project-info">
+                            <h3>Website Portofolio Interaktif Kelompok</h3>
+                            <p class="project-category"><i class="fas fa-laptop-code"></i> Web Development</p>
+                            <p>Membangun website responsif dari nol menggunakan HTML, CSS, dan JavaScript untuk menampilkan portofolio dan profil anggota.</p>
+                            <a href="#" target="_blank" class="project-link">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="data-science">
+                        <img src="https://via.placeholder.com/400x250/9b59b6/ffffff?text=Data+Project+1" alt="Data Project 1">
+                        <div class="project-info">
+                            <h3>Analisis Sentimen Ulasan Film</h3>
+                            <p class="project-category"><i class="fas fa-database"></i> Data Science</p>
+                            <p>Menganalisis dataset ulasan film menggunakan Python untuk mengidentifikasi sentimen positif atau negatif.</p>
+                            <a href="#" target="_blank" class="project-link">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="mobile-app">
+                        <img src="https://via.placeholder.com/400x250/e67e22/ffffff?text=Mobile+Project+1" alt="Mobile Project 1">
+                        <div class="project-info">
+                            <h3>Aplikasi Mobile Pengelola Keuangan Pribadi</h3>
+                            <p class="project-category"><i class="fas fa-mobile-alt"></i> Mobile App</p>
+                            <p>Mengembangkan prototipe aplikasi mobile untuk membantu pengguna melacak pengeluaran dan anggaran.</p>
+                            <a href="#" target="_blank" class="project-link">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Website Kelompok Proyek. Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
+</body>
+</html>
